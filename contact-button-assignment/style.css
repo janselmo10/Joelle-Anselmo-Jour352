@@ -1,0 +1,31 @@
+body{
+    background-color:#F0EAD2; 
+    text-align: center;
+}
+
+button{
+    background-color:#A98467;
+    color:white;
+    font-family:'Lato', Sans-Serif;
+    width:155px;
+    padding:10px;
+    margin-top:60px;
+    border-radius:8px;
+    border:none;
+}
+
+button:hover {
+    background-color:#6C584C;
+}
+
+h1{
+    Font-Family: 'Arvo', sans-Serif;
+    Font-weight: bolder;
+    color:#6C584C;
+}
+
+h2{
+    Font-Family: 'Lato', Sans-Serif;
+    font-weight:lighter;
+    color:#6C584C;
+}
