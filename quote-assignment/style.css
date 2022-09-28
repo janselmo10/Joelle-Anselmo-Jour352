@@ -1,0 +1,30 @@
+/*
+MY COLOR PALETTE
+Light Green - #dde5b6
+Light Brown - #a98467
+Dark Brown - #6c584c
+Green - #adc178
+Beige - #f0ead2
+*/
+
+body {
+    background-color:#dde5b6;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color:#6c584c;
+    border:3px dotted #6c584c;
+    padding:60px 30px 30px 10px;
+    margin:auto;
+}
+
+#highlight {
+    color:aliceblue;
+    font-weight:bold;
+}
