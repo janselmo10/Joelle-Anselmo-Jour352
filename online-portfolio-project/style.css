@@ -3,18 +3,29 @@
     background-size:cover;
 }
 
+#experiencetitle {
+    background-color:#FCFCB6;
+    color:#672400;
+}
+        
 
-
-#footer {
-    background-color:whitesmoke;
+#skills {
+    background-color:#FCFCB6;
+    color:#672400;
 }
 
+#educationtitle {
+    background-color:#FCFCB6;
+    color:#672400;
+}
+        
 
 #headshot {
     width:300px;
     padding:0px;
     margin:20px 0px 20px 40px;
     border-radius: 500px;
+    
 }
 
 #button {
@@ -29,4 +40,9 @@
 #button a {
     color:white;
     text-decoration: none;
+}
+
+
+#footer {
+    background-color:whitesmoke;
 }
