@@ -1,3 +1,5 @@
+@media {
+
 #topper {
     background-color: lightyellow;
     background-size:cover;
@@ -6,9 +8,38 @@
 
 h1{
     Font-Family: 'Open Sans', sans-serif;
-    Font-weight: bolder;
+    Font-weight: 700;
     color:#672400;
 }
+
+@media (min-width:375px) {
+    
+     h1 {
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    #topper {
+        text-align: center;
+    }
+}
+    
+    @media (min-width: 992px) {
+        
+        h1 {
+            text-align: left;
+        }
+        
+        h2 {
+        text-align: left;
+    }
+        #topper {
+        text-align: left;
+    }
+    }
 
 h2{
     Font-Family: 'Open Sans', sans-serif;
@@ -16,30 +47,50 @@ h2{
     color:#672400;
 }
 
+.nav a {
+font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color:#672400;
+    margin: 0px 0px 3px 0px;
+}
+
+.nav a:hover {
+    color:#672400;
+    background-color: navajowhite;
+}
+
 #experiencetitle {
     color:#672400;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300 bold
 }
         
 #date{
     font-style: italic;
 }
 
-#company{
-    font-weight: bold;
+#title{
+    font-weight: 700;
+    margin: 0px 0px 3px 0px;
 }
+
+#company{
+    margin: 0px 0px 3px 0px;
+}
+
         
 #skills {
     color:#672400;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300 bold
+    font-weight: 300 
 }
 
+#jobrow {
+    margin: 10px 0px 30px 0px;
+}
 #educationtitle {
     color:#672400;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300 bold
+    font-weight: 300 
 }
         
 
@@ -53,6 +104,10 @@ h2{
 img {
     border: 8px solid;
     color: #672400;
+}
+
+ul { font-family: 'Open Sans', sans-serif;
+    
 }
 
 p { font-family: 'Open Sans', sans-serif;
@@ -81,5 +136,8 @@ body{
 
 
 #footer {
-    background-color:whitesmoke;
+    background-color:#672400;
+    color:white;
+    position:absolute;
+}
 }
