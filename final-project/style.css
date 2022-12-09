@@ -1,0 +1,121 @@
+@media {   /*Phone styles here*/
+    /*This media query targets any screen smaller than 576px wide (see below)*/
+    
+    h1 {
+        font-weight: 800;
+        word-spacing: 5px;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size:20px;
+        padding-bottom: 10px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        padding: 15px 15px;
+    }
+
+    .indent {
+        
+        color: grey; 
+        font-size: smaller;
+    }
+p { 
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+        
+        }
+
+.pullquote
+{ 
+    font-size: 25px;
+    text-align:center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding:30px 30px 30px 50px;
+    margin:auto;
+    margin-bottom: 30px;
+    background-color: #B0C4DE;
+    color: white;
+    }
+    
+    
+    .caption1 {
+        padding-bottom: 5px;
+    }
+
+    #bettye {
+         width: 100%;
+        height: auto;
+         margin-left: auto;
+        margin-right: auto;
+    }
+    
+    img {
+        
+        padding-bottom: 10px;
+    }   
+    
+    .leadimage {
+        max-width: 100%;
+        object-fit: contain;
+    }
+    
+    
+    .caption1 {
+      font-family: 'Montserrat', sans-serif;
+        font-style:italic;
+        font-size:smaller;
+        padding-bottom: 20px;
+        color: grey;
+       
+  
+    }   
+    
+    a {
+        color:green;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    
+    #slideshow {
+        
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    #highlight {
+        font-family: cursive;
+    }
+}
+
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+ 
+}
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
+
+}
+
+@media (min-width: 1200px) {
+    /*Large-Desktop-only styles here*/
+    /*This media query targets any screen that is at least 1200px wide*/
+}
