@@ -12,7 +12,7 @@
     h2 {
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        font-size:20px;
+        font-size:18px;
         padding-bottom: 10px;
         line-height: 1.5;
         text-align: center;
@@ -22,6 +22,7 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         padding: 15px 15px;
+        text-align: center;
     }
 
     .indent {
@@ -29,15 +30,15 @@
         color: grey; 
         font-size: smaller;
     }
-p { 
+    
+    p { 
     
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
         
         }
 
-.pullquote
-{ 
+    .pullquote { 
     font-size: 25px;
     text-align:center;
     font-family: 'Poppins';
@@ -49,12 +50,14 @@ p {
     color: white;
     }
     
-    
-    .caption1 {
-        padding-bottom: 5px;
-    }
-
     #bettye {
+         width: 100%;
+        height: auto;
+         margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #woodwards {
          width: 100%;
         height: auto;
          margin-left: auto;
@@ -63,7 +66,8 @@ p {
     
     img {
         
-        padding-bottom: 10px;
+        padding-bottom: 5px;
+        padding-top: 20px;
     }   
     
     .leadimage {
@@ -80,14 +84,22 @@ p {
         color: grey;
        
   
+    }  
+    
+        
+    .caption2 {
+      font-family: 'Montserrat', sans-serif;
+        font-style:italic;
+        font-size:smaller;
+        padding-bottom: 20px;
+        color: grey;
+       
+  
     }   
     
     a {
-        color:green;
-        font-size: 20px;
-        text-align: center;
+        color:black;
     }
-
 
     
     #slideshow {
@@ -100,6 +112,15 @@ p {
     #highlight {
         font-family: cursive;
     }
+    
+    
+    
+    .first-letter {
+  font-size: 40px;
+  line-height: 40px;
+    font-weight: bold;
+}
+    
 }
 
 
@@ -107,11 +128,26 @@ p {
     /*Tablet-only styles here*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
  
+            h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        padding: 15px 15px;
+    }
 }
 
 @media (min-width: 992px) {
     /*Desktop-only styles here*/
     /*This media query targets any screen that is at least 992px wide*/
+    
+        h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size:20px;
+        padding-bottom: 10px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
 
 }
 
